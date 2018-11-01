@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 308" style="enable-background:new 0 0 300 308;" xml:space="preserve">
+  
+    <style type="text/css">
+    <![CDATA[
+    @keyframes jump {
+        0% { transform: translateY(16px); }
+        33% { transform: translateY(-36px); }
+        100% { transform: translateY(16px); }
+    }
+	@keyframes grow {
+		0% { transform: scaleX(1.2); transform-origin: center;}
+		33% { transform: scaleX(1); transform-origin: center; }
+		100% { transform: scaleX(1.2); transform-origin: center; }
+	}
+    #arrow {
+		fill: rgba(0,0,0,.25);
+        animation: jump 1.25s ease-in-out infinite;
+    }
+	#pit {
+		animation: grow 1.25s ease-in-out infinite;
+		fill: rgba(0,0,0,.25);
+	}
+    ]]>
+    </style>
+	<ellipse id="pit" cx="150" cy="281" rx="144" ry="16"/>
+    <g>
+        <path id="arrow" d="M220.689,180.595c0,3.209-1.125,5.928-3.361,8.166l-59.075,59.167c-2.354,2.236-5.107,3.361-8.256,3.361
+            c-3.203,0-5.929-1.125-8.166-3.361l-59.074-59.167c-2.302-2.177-3.447-4.896-3.447-8.166c0-3.202,1.145-5.955,3.447-8.257
+            l6.716-6.802c2.356-2.243,5.108-3.361,8.257-3.361c3.203,0,5.929,1.119,8.166,3.361l26.679,26.679V89.619
+            c0-3.149,1.151-5.869,3.447-8.172c2.303-2.296,5.022-3.447,8.172-3.447h11.612c3.144,0,5.869,1.151,8.165,3.447
+            c2.304,2.303,3.447,5.022,3.447,8.172v102.596l26.68-26.679c2.243-2.243,4.962-3.361,8.172-3.361c3.143,0,5.895,1.119,8.258,3.361
+            l6.801,6.802C219.564,174.7,220.689,177.453,220.689,180.595z"/>
+    </g>
+</svg>

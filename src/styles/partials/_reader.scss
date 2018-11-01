@@ -1,0 +1,16 @@
+#reader,
+.dropzone {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    #alerts {
+      padding: 0 $spacer*12;
+    }
+}
+
+.dropzone.dropActive {
+  transition: background 1s ease-in-out;
+  background: transparentize($green, .9);
+}

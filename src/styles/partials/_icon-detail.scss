@@ -1,0 +1,65 @@
+.icon-detail {
+
+  .icon-rendered {
+    position: relative;
+    padding: $spacer;
+    height: 100%;
+    width: 100%;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJklEQVQoU2NkYGD4z4AG/v/HEGJgHAoK/2NxOSMjyOmogHEIKAQAnJcn8kcUXXgAAAAASUVORK5CYII=);
+
+    svg {
+      max-height: 100%;
+      position: relative;
+      z-index: 100;
+    }
+  }
+
+  .canvas-bg {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: $gray-800;
+  }
+
+  .splitter-pane.splitter-paneR.horizontal {
+    overflow-x: scroll;
+    background-color: $gray-800;
+  }
+
+  .CodeMirror {
+    height: 100%;
+    padding-bottom: 68px;
+    &.cm-s-base16-dark {
+      background: $gray-900;
+    }
+  }
+
+  .pane-footer {
+    border-top: 5px solid $gray-900;
+    border-left: 2.5px solid $gray-900;
+    background: $gray-800;
+    padding: $spacer;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 50% 40px auto;
+
+    .btn-group {
+      .btn-save:hover {
+        .fa-icon { fill: $green; }
+      }
+      .btn-close:hover {
+        .fa-icon { fill: $red; }
+      }
+      .btn-download:hover {
+        .fa-icon { fill: $blue; }
+      }
+    }
+  }
+}

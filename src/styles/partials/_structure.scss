@@ -1,0 +1,33 @@
+html,
+body,
+.pane-detail {
+  height: 100%;
+}
+
+body>.app {
+  height: calc(100% - 61px);
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.no-list {
+  height: calc(100% - 61px);
+}
+
+.navbar {
+  border-bottom: 5px solid $gray-900;
+}
+
+#alerts {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  top: 10%;
+}
+
+.vue-codemirror {
+  height: 100%;
+}

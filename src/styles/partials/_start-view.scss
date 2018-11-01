@@ -1,0 +1,22 @@
+.no-list {
+  h1 {
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+  }
+}
+
+.starter {
+  max-width: 280px;
+  margin: auto;
+}
+
+@include media-breakpoint-up(md) {
+  .starter {
+    max-width: 575px;
+  }
+  .no-list {
+    h1 {
+      font-size: 120px;
+    }
+  }
+}
