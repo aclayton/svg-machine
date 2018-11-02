@@ -39,13 +39,13 @@
 <script>
 import Edit from "./edit.vue";
 import DefsGenerator from "./defs.vue";
-import iconNew from "./iconNew.vue";
+import IconNew from "./iconNew.vue";
 import { mapGetters } from 'vuex';
 export default {
   components: {
     Edit,
     DefsGenerator,
-    iconNew
+    IconNew
   },
   name: 'iconList',
   computed: {
@@ -63,9 +63,6 @@ export default {
     },
     gridView() {
       this.$store.commit('UPDATE_PREFS_LISTVIEW', 'grid')
-    },
-    newIcon() {
-      console.log('TODO: new blank icon')
     }
   }
 }
