@@ -27,7 +27,7 @@ module.exports = {
   configureWebpack: {
     plugins
   },
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? '/svg-machine/'
-    : '/'
+  // baseUrl: process.env.NODE_ENV === 'production'
+  //   ? '/svg-machine/'
+  //   : '/'
 }
