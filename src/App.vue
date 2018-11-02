@@ -5,10 +5,10 @@
       <b-navbar variant="dark" type="dark" class="navbar-expand-sm">
         <b-navbar-brand href="#">svg machine</b-navbar-brand>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="http://github.com" title="About">
+          <b-nav-item href="https://github.com/aclayton" title="About">
             <icon name="info-circle"/> <span class="sr-only">About</span>
           </b-nav-item>
-          <b-nav-item href="http://github.com" title="View on GitHub">
+          <b-nav-item href="https://github.com/aclayton/svg-machine" title="View on GitHub">
             <icon name="brands/github"/> <span class="sr-only">View on GitHub</span>
           </b-nav-item>
         </b-navbar-nav>
