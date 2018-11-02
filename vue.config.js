@@ -28,6 +28,6 @@ module.exports = {
     plugins
   },
   baseUrl: process.env.NODE_ENV === 'production'
-    ? '/my-project/'
+    ? '/svg-machine/'
     : '/'
 }
